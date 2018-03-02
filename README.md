@@ -19,6 +19,13 @@ mvn spring-boot:run
 https://localhost:8443/greeting
 ```
 
+or check the whole API
+
+```
+https://localhost:8443/swagger-ui.html
+
+```
+
 # Optionals
 
 HTTP 1.1
@@ -40,3 +47,5 @@ mvn spring-boot:run -Dserver.port=9090
 )
 
 * [Undertow from JBOSS](http://undertow.io)
+
+* [Swagger Configuration](http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)
