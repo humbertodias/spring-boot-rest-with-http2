@@ -10,7 +10,7 @@ Spring-Boot with REST using undertow over HTTP2
 # Play
 
 ```
-mvn spring-boot:run -pserver.port
+mvn spring-boot:run
 ```
 
 # Access
