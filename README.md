@@ -49,3 +49,5 @@ mvn spring-boot:run -Dserver.port=9090
 * [Undertow from JBOSS](http://undertow.io)
 
 * [Swagger Configuration](http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)
+
+* [Certificate SSL](https://www.thomasvitale.com/https-spring-boot-ssl-certificate)
