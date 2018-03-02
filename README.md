@@ -1,6 +1,6 @@
 # SpringBoot/HTTP2
 
-Spring-Boot with REST using undertow over HTTP2 
+Spring-Boot with REST using Undertow over HTTP2 
 
 # Requisites
 
@@ -36,5 +36,7 @@ mvn spring-boot:run -Dserver.port=9090
 
 # References
 
-[HTTP2 Configuration](http://www.baeldung.com/spring-boot-application-configuration
+* [HTTP2 Configuration](http://www.baeldung.com/spring-boot-application-configuration
 )
+
+* [Undertow from JBOSS](http://undertow.io)
