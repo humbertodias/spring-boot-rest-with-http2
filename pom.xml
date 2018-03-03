@@ -24,6 +24,7 @@
         <java.version>1.8</java.version>
         <springfox-swagger.version>2.8.0</springfox-swagger.version>
         <undertow-core.version>2.0.0.Final</undertow-core.version>
+        <swagger.codegen.version>2.3.1</swagger.codegen.version>
     </properties>
 
     <dependencies>
@@ -96,6 +97,36 @@
 
 
     </dependencies>
+
+    <build>
+
+        <plugins>
+
+            <!-- Generate REST default interface from Swagger spec -->
+            <plugin>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-codegen-maven-plugin</artifactId>
+                <version>${swagger.codegen.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>src/main/resources/amadeus.yaml</inputSpec>
+                            <language>spring</language>
+                            <configOptions>
+                                <sourceFolder>src/gen/java/main</sourceFolder>
+                                <library>spring-boot</library>
+                            </configOptions>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+
+    </build>
 
     <profiles>
         <profile>

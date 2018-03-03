@@ -51,3 +51,7 @@ mvn spring-boot:run -Dserver.port=9090
 * [Swagger Configuration](http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)
 
 * [Certificate SSL](https://www.thomasvitale.com/https-spring-boot-ssl-certificate)
+
+* [Swagger Codegen](https://github.com/swagger-api/swagger-codegen)
+
+* [Swagger Codegen with Maven](https://www.clianz.com/2016/05/29/java-mvc-swagger-gen/)
