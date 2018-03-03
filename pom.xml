@@ -85,22 +85,38 @@
         </dependency>
         <!-- springfox-swagger2 -->
 
+
+        <!-- For Spring Generated Layer -->
+        <dependency>
+            <groupId>com.github.joschi.jackson</groupId>
+            <artifactId>jackson-datatype-threetenbp</artifactId>
+            <version>2.6.4</version>
+        </dependency>
+        <!-- For Spring Generated Layer -->
+
+
     </dependencies>
 
-    <build>
-        <plugins>
-
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <!-- Fix for Java 9 : Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlType-->
-                    <jvmArguments>--add-modules java.xml.bind</jvmArguments>
-                </configuration>
-            </plugin>
-
-        </plugins>
-    </build>
+    <profiles>
+        <profile>
+            <id>java-9</id>
+            <activation>
+                <jdk>9</jdk>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-maven-plugin</artifactId>
+                        <configuration>
+                            <!-- Fix for Java 9 : Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlType-->
+                            <jvmArguments>--add-modules java.xml.bind</jvmArguments>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
 
 </project>

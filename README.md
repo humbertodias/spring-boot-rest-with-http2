@@ -31,7 +31,7 @@ https://localhost:8443/swagger-ui.html
 HTTP 1.1
 
 ```
-mvn spring-boot:run -Dserver.http2.enabled=false
+mvn spring-boot:run -Dserver.ssl.enabled=false -Dserver.http2.enabled=false
 ```
 
 Server Port
