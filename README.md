@@ -16,15 +16,11 @@ mvn spring-boot:run
 # Access
 
 ```
-https://localhost:8443/greeting
-```
-
-or check the whole API
-
-```
 https://localhost:8443/swagger-ui.html
 
 ```
+
+![](doc/swagger-amadeus.png)
 
 # Optionals
 
