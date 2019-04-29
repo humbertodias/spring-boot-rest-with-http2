@@ -39,8 +39,7 @@ mvn spring-boot:run -Dserver.port=9090
 
 # References
 
-* [HTTP2 Configuration](http://www.baeldung.com/spring-boot-application-configuration
-)
+* [HTTP2 Configuration](http://www.baeldung.com/spring-boot-application-configuration)
 
 * [Undertow from JBOSS](http://undertow.io)
 
