@@ -64,3 +64,8 @@ fabric.properties
 
 .idea/
 *.iml
+
+# Visual Code
+.classpath
+.project
+.settings
