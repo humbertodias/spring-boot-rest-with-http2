@@ -13,12 +13,17 @@ Spring-Boot with REST using Undertow over HTTP2
 mvn spring-boot:run
 ```
 
+or
+
+```
+mvn clean build
+java -jar target/spring-boot-rest-with-http2-0.0.1-SNAPSHOT.jar
+```
+
 # Access
 
-```
 https://localhost:8443/swagger-ui.html
 
-```
 
 ![](doc/swagger-amadeus.png)
 
@@ -37,6 +42,15 @@ mvn spring-boot:run -Dserver.port=9090
 ```
 
 
+# Mappings
+
+https://localhost:8443/actuator/mappings
+
+https://localhost:8443/swagger-resources
+
+
+
+
 # References
 
 * [HTTP2 Configuration](http://www.baeldung.com/spring-boot-application-configuration)
@@ -50,3 +64,7 @@ mvn spring-boot:run -Dserver.port=9090
 * [Swagger Codegen](https://github.com/swagger-api/swagger-codegen)
 
 * [Swagger Codegen with Maven](https://www.clianz.com/2016/05/29/java-mvc-swagger-gen/)
+
+* [OpenAPI documentation](https://www.baeldung.com/spring-rest-openapi-documentation)
+
+* [SpringDoc](https://springdoc.org/springdoc-properties.html)
