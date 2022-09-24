@@ -11,7 +11,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.3</version>
+        <version>2.5.9</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -24,7 +24,7 @@
         <swagger.codegen.version>3.0.20</swagger.codegen.version>
         <jackson-datatype-threetenbp.version>2.10.0</jackson-datatype-threetenbp.version>
 
-		<springdoc-openapi.version>1.4.3</springdoc-openapi.version>
+		<springdoc-openapi.version>1.6.11</springdoc-openapi.version>
     </properties>
 
 
@@ -40,6 +40,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+            <dependency>
+                <groupId>com.github.jknack</groupId>
+                <artifactId>handlebars</artifactId>
+                <version>4.3.0</version>
+            </dependency>
 
     <!-- https://localhost:8443/actuator/mappings -->
      <dependency>
