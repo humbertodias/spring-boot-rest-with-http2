@@ -9,13 +9,13 @@ Spring-Boot with REST using Undertow over HTTP2
 
 # Play
 
-```
+```shell
 mvn spring-boot:run
 ```
 
 or
 
-```
+```shell
 mvn clean build
 java -jar target/spring-boot-rest-with-http2-0.0.1-SNAPSHOT.jar
 ```
@@ -31,24 +31,21 @@ https://localhost:8443/swagger-ui.html
 
 HTTP 1.1
 
-```
+```shell
 mvn spring-boot:run -Dserver.ssl.enabled=false -Dserver.http2.enabled=false
 ```
 
 Server Port
 
-```
+```shell
 mvn spring-boot:run -Dserver.port=9090
 ```
-
 
 # Mappings
 
 https://localhost:8443/actuator/mappings
 
 https://localhost:8443/swagger-resources
-
-
 
 
 # References
