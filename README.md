@@ -1,3 +1,5 @@
+[![Build, Test](https://github.com/humbertodias/spring-boot-rest-with-http2/actions/workflows/build.yml/badge.svg)](https://github.com/humbertodias/spring-boot-rest-with-http2/actions/workflows/build.yml)
+
 # SpringBoot/HTTP2
 
 Spring-Boot with REST using Undertow over HTTP2 
