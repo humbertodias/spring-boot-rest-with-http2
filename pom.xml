@@ -20,7 +20,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <springfox-swagger.version>3.0.0</springfox-swagger.version>
-        <undertow-core.version>2.3.14.Final</undertow-core.version>
+        <undertow-core.version>2.2.31.Final</undertow-core.version>
         <swagger.codegen.version>3.0.20</swagger.codegen.version>
         <jackson-datatype-threetenbp.version>2.10.0</jackson-datatype-threetenbp.version>
 
