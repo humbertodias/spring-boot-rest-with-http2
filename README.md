@@ -18,7 +18,7 @@ mvn spring-boot:run
 or
 
 ```shell
-mvn clean build
+mvn clean package
 java -jar target/spring-boot-rest-with-http2-0.0.1-SNAPSHOT.jar
 ```
 
